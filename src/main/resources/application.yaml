@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5444/solva-api
+    username: admin
+    password: admin
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.yaml
+
+server:
+  port: 8080
+
+exchange_rate:
+  update: "0 0 0 * * ?"
