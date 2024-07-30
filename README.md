@@ -46,5 +46,5 @@
 1. **Клонируйте репозиторий:**
 
    ```bash
-   git clone https://github.com/ваш-проект/ваш-репозиторий.git
-   cd ваш-репозиторий
+   git clone https://github.com/Ackerman995/bank-api.git
+   cd bank-api.git
